@@ -1,0 +1,42 @@
+.description {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    text-align: justify;
+  }
+  
+  .linkButton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 1px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: ease-in 1000ms;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .linkButton:hover {
+    background-color: white;
+    color: black;
+  }
+  

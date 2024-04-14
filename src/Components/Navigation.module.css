@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px; 
+  padding: 20px; 
+}
+
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  text-decoration: none; 
+  color: inherit; 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  margin: 0 0 10px 0;
+  color: #333; 
+}
+
+.card p {
+  margin: 0; 
+  color: #666; 
+}
